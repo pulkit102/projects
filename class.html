@@ -1,0 +1,120 @@
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <title>sachin tendulkar
+        </title>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-color:white;
+            }
+            div{
+                width:auto;
+                height:750px;
+                background-color: grey;
+                margin: 20px 80px         
+            }
+            div img{
+                width: 363px;
+                height: 302px;
+            }
+           
+        </style>
+    </head>
+        <body>
+            <div>
+                <h2>Sachin ramesh tendulakar</h2>
+                <hr>
+                <img src="/cli/kisspng-sachin-tendulkar-india-national-cricket-team-crick-5af3b686513ce0.1793589215259214143328.png" alt="sachin paaji" align="right">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque tempora quaerat voluptatibus expedita provident, officiis perspiciatis blanditiis eos ab possimus saepe, tenetur earum minus officia ipsam autem! Esse sequi incidunt perferendis provident assumenda rerum eos similique aspernatur illum accusamus quo aliquam eveniet, distinctio voluptatem laboriosam odio ea atque tempora culpa recusandae sunt nobis quibusdam! Beatae neque reiciendis quas doloremque molestias laboriosam dicta explicabo deleniti porro quod voluptates ea aliquam aut quaerat deserunt quisquam, sequi minus officia recusandae. Tempora assumenda, cumque molestias iste odio ex architecto nihil expedita, tempore sunt voluptatum distinctio ut fugiat quo sit ad? Impedit, similique voluptate?</p>
+           <br>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis fuga quidem soluta eligendi harum esse quo! Eos ut, deserunt ratione error dolore distinctio molestias iure quam tempore ipsum est cumque delectus adipisci perferendis unde temporibus expedita officiis, provident voluptatem perspiciatis placeat dolorum. Accusantium, non veritatis necessitatibus, voluptates maiores praesentium aut tempore iure obcaecati itaque suscipit quisquam! Amet, iusto? Nulla laboriosam rem inventore quibusdam dolor voluptatum quos eos quidem hic quia, officia aperiam ratione veniam, eaque aut fugit tenetur ea atque cupiditate vel odit iste reiciendis. Alias sit rerum explicabo esse tempora dolorem iste voluptatem, beatae facilis, iusto doloribus harum quasi!</p> 
+       <br>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni corrupti quo sit dolore nam eius delectus ipsum voluptatibus ipsa, excepturi eaque quisquam enim ab iste earum laudantium unde modi blanditiis? Consectetur laborum omnis culpa quaerat. Mollitia porro itaque autem numquam facere error, ratione quam provident distinctio? Blanditiis alias accusamus sint sapiente doloremque optio porro quibusdam aliquid, sed at dolorum, sunt suscipit, dolore quia omnis nemo laboriosam dolor mollitia maxime consequatur. Nam cum quia, sed corrupti sunt, repellendus voluptates temporibus odit ipsa nemo autem, nisi qui explicabo aspernatur. Vitae maxime laudantium repellat, error nemo beatae voluptatem tenetur sapiente similique dolorum?</p> 
+       <br>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta delectus eos neque inventore adipisci nihil porro cumque. Necessitatibus beatae non quidem autem, accusamus harum id? Repellendus sunt eum in est id, minima laudantium vitae tenetur. Fugiat, odio. Nisi itaque dolor animi omnis numquam nostrum dolores eveniet tempora ratione quibusdam veritatis iure, voluptate architecto? Tempora cumque natus veniam soluta aliquid facere exercitationem ratione atque sed quo dolorem ea illum, doloribus impedit voluptatem, possimus, error architecto? Incidunt, nisi doloribus ipsum asperiores consequatur ex enim odit aperiam magni eos velit blanditiis dolorum illum ipsam non debitis hic inventore quae distinctio. Aperiam, veniam?</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aliquid optio corrupti veritatis cupiditate in temporibus ipsam excepturi! Quisquam praesentium perspiciatis eveniet quia facere voluptates. Consectetur est accusamus laborum amet pariatur voluptatibus quae ipsum numquam? Provident consectetur laboriosam suscipit dolorem facilis cum rem accusantium. Quo, obcaecati esse! Aliquam debitis recusandae veniam fugit at! Amet et ad voluptas quibusdam! Rerum, officia? Praesentium temporibus optio alias, ex eveniet, obcaecati exercitationem maiores consequatur autem voluptates, deserunt nemo fugiat? Officia velit provident sapiente aperiam consectetur perferendis repellendus explicabo, esse veniam doloribus, ea est mollitia eaque, quod minus praesentium? Delectus sit id impedit quidem modi.</p>
+   </div> </body>
+
+
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Animation</title>
+    <style>
+        /* Base styles for the sun and planets */
+        .solar-system {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            margin: 225px auto;
+        }
+
+        .sun {
+            width: 80px;
+            height: 80px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: absolute;
+            top: 8%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .planet {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            position: absolute;
+            animation-timing-function: linear;
+        }
+
+        /* Keyframes for planet orbits */
+        @keyframes orbit {
+            from {
+                transform: translate(-50%, -50%) rotate(0deg) translateX(150px) rotate(0deg);
+            }
+            to {
+                transform: translate(-50%, -50%) rotate(360deg) translateX(150px) rotate(-360deg);
+            }
+        }
+
+        /* Apply animations to planets */
+        .earth {
+            animation: orbit 10s linear infinite;
+        }
+
+        .mars {
+            animation: orbit 7s linear infinite;
+        }
+
+        .venus {
+            animation: orbit 8s linear infinite;
+        }
+
+        /* Adjust positions of planets for orbits */
+        .earth { left: 50%; }
+        .mars { left: 50%; }
+        .venus { left: 50%; }
+
+        /* Unique styling for each planet */
+        .earth { background-color: #00a5d1; }
+        .mars { background-color: #ff5722; }
+        .venus { background-color: #ffec40; }
+    </style>
+</head>
+<body>
+    <div class="solar-system">
+        <div class="sun"></div>
+        <div class="planet earth"></div>
+        <div class="planet mars"></div>
+        <div class="planet venus"></div>
+    </div>
+</body>
+</html>
+
